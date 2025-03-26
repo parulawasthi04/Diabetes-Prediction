@@ -46,33 +46,8 @@ Age: Age of the patient.
 
 Outcome: 1 if the patient has diabetes, 0 otherwise.
 
-💻 How to Get Started
-1. Clone the Repository:
-bash
-git clone https://github.com/yourusername/diabetes-prediction.git
-2. Install Dependencies:
-Make sure you have Python 3.x installed and install the required libraries by running:
-
-bash
-pip install -r requirements.txt
-3. Prepare the Data:
-The dataset can be found in the data/ folder. If needed, download it from here.
-
-4. Train the Model:
-Run the following command to train the model:
-
-bash
-python train_model.py
-This will train the model on the dataset and save the trained model for predictions.
-
-5. Make Predictions:
-After training, use the model to make predictions based on new input data by running:
-
-bash
-python predict.py
-Enter the required health parameters when prompted and get the prediction (whether the individual is likely to have diabetes or not).
-
 📈 Model Evaluation
+
 The model is evaluated using various performance metrics, including:
 
 Accuracy: Proportion of correct predictions.
@@ -84,6 +59,7 @@ Recall: The ability of the model to detect positive instances (i.e., individuals
 F1-Score: Harmonic mean of precision and recall, providing a balance between the two.
 
 🔬 Machine Learning Models
+
 Logistic Regression: A simple model used for binary classification problems like this one.
 
 Decision Tree: A tree-like model that splits data based on feature thresholds.
